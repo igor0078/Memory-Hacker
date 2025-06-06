@@ -1,22 +1,30 @@
-import java.awt.*;
+/**
+ * Write a description of class platform here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class platform  
+{
+    // instance variables - replace the example below with your own
+    private int x;
 
-public class Platform {
-    int x, y, width, height;
-
-    public Platform(int x, int y, int w, int h) {
-        this.x = x;
-        this.y = y;
-        this.width = w;
-        this.height = h;
+    /**
+     * Constructor for objects of class platform
+     */
+    public platform()
+    {
     }
 
-    public void draw(Graphics g) {
-        g.setColor(Color.GREEN);
-        g.fillRect(x, y, width, height);
-    }
-
-    public Rectangle getBounds() {
-        return new Rectangle(x, y, width, height);
+    /**
+     * An example of a method - replace this comment with your own
+     * 
+     * @param  y   a sample parameter for a method
+     * @return     the sum of x and y 
+     */
+    public int sampleMethod(int y)
+    {
+        // put your code here
+        return x + y;
     }
 }
-
